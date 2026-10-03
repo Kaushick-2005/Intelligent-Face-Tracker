@@ -19,10 +19,6 @@ The **Intelligent Face Tracker with Auto-Registration and Visitor Counting** sol
 
 ## 2. Video Demonstration Link
 
-<div align="center">
-  <iframe src="https://www.loom.com/embed/f593fa6f79344ee4a489f765e8e4e974" frameborder="0" allowfullscreen></iframe>
-</div>
-
 **Loom video link:** [Watch the Loom demonstration](https://www.loom.com/share/f593fa6f79344ee4a489f765e8e4e974)
 
 Copy the video URL:
