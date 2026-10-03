@@ -21,8 +21,7 @@ The **Intelligent Face Tracker with Auto-Registration and Visitor Counting** sol
 
 > [!IMPORTANT]
 > **Video Demonstration Link**:
-> `[Insert Loom / YouTube Demonstration Link Here]`
-> *(Replace the URL above with your recorded Loom / YouTube video before final submission)*
+> [Watch the Loom demonstration](https://www.loom.com/share/f593fa6f79344ee4a489f765e8e4e974)
 
 ---
 
