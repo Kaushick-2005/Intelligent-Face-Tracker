@@ -266,3 +266,6 @@ config.json
 !logs/exits/**
 !logs/registrations/
 !logs/registrations/**
+
+# Hackathon verification database
+!database/intelligent_face_tracker.sqlite3
