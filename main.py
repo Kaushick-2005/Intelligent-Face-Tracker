@@ -89,8 +89,8 @@ db_manager = DatabaseManager()
 recognizer = FaceRecognizer()
 
 # Load existing visitors from DB for persistent re-identification
-registered_visitors = db_manager.load_registered_visitors()
 db_manager.repair_missing_registration_crops()
+registered_visitors = db_manager.load_registered_visitors()
 log_system_event(f"Loaded {len(registered_visitors)} pre-registered visitors from database.")
 
 def extract_padded_face(frame, x1, y1, x2, y2, padding_ratio=CROP_PADDING_RATIO):

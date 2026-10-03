@@ -175,15 +175,30 @@ class DatabaseManager:
 
     def repair_missing_registration_crops(self):
         """Restore missing registration files from available entry crops."""
+        visitor_paths = {}
         with sqlite3.connect(self.sqlite_path) as conn:
             rows = conn.execute(
                 "SELECT visitor_id, crop_image_path FROM visitors "
                 "WHERE crop_image_path IS NOT NULL"
             ).fetchall()
+        visitor_paths.update(rows)
+
+        if self.visitors_col is not None:
+            try:
+                mongo_rows = self.visitors_col.find(
+                    {"visitor_id": {"$type": "string"}, "crop_image_path": {"$type": "string"}},
+                    {"visitor_id": 1, "crop_image_path": 1},
+                )
+                visitor_paths.update(
+                    (doc["visitor_id"], doc["crop_image_path"]) for doc in mongo_rows
+                )
+            except Exception as err:
+                print(f"[WARNING] Could not inspect MongoDB registration crops: {err}")
 
         repaired = 0
-        for visitor_id, crop_image_path in rows:
-            expected_path = os.path.join(ROOT_DIR, crop_image_path.replace("/", os.sep))
+        for visitor_id, crop_image_path in visitor_paths.items():
+            portable_path = self._portable_path(crop_image_path)
+            expected_path = os.path.join(ROOT_DIR, portable_path.replace("/", os.sep))
             if os.path.isfile(expected_path):
                 continue
 
@@ -206,10 +221,16 @@ class DatabaseManager:
                     )
                     conn.commit()
                 if self.visitors_col is not None:
-                    self.visitors_col.update_one(
-                        {"visitor_id": visitor_id},
-                        {"$set": {"crop_image_path": portable_target}},
-                    )
+                    try:
+                        self.visitors_col.update_one(
+                            {"visitor_id": visitor_id},
+                            {"$set": {"crop_image_path": portable_target}},
+                        )
+                    except Exception as err:
+                        print(
+                            f"[WARNING] Could not update MongoDB crop path for "
+                            f"{visitor_id}: {err}"
+                        )
                 repaired += 1
             except OSError as err:
                 print(f"[WARNING] Could not repair registration crop for {visitor_id}: {err}")
