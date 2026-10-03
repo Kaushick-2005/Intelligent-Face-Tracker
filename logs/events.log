@@ -1,163 +1,163 @@
-[2026-10-03 21:10:31] === SYSTEM INITIALIZED: INTELLIGENT FACE TRACKER ===
-[2026-10-03 21:10:31] Compute Device: cuda | Confidence: 0.5 | Inference Size: 1280 | Frame Skip: 1
-[2026-10-03 21:10:37] Loaded 15 pre-registered visitors from database.
-[2026-10-03 21:10:37] Found 3 video file(s) in 'C:\Intelligent Face Tracker\video'
-[2026-10-03 21:10:37] --- Processing Video (1/3): record_20250620_183903.mp4 ---
-[2026-10-03 21:10:37] Starting processing for 'record_20250620_183903.mp4' (2688x1520 @ 25.0 FPS)
-[2026-10-03 21:10:48] [EMBEDDING] Generated 512-D face embedding vector (norm: 25.64)
-[2026-10-03 21:10:48] [RE-ID] Recognized visitor VISITOR_0001 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:10:48] [ENTRY EVENT] VISITOR_0001 entered frame at 0.04s (Track ID: 1)
-[2026-10-03 21:10:49] [EMBEDDING] Generated 512-D face embedding vector (norm: 22.43)
-[2026-10-03 21:10:49] [RE-ID] Recognized visitor VISITOR_0002 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:10:50] [ENTRY EVENT] VISITOR_0002 entered frame at 0.439s (Track ID: 2)
-[2026-10-03 21:10:52] [EXIT EVENT] VISITOR_0002 exited frame at 0.439s after inactivity
-[2026-10-03 21:10:53] [EMBEDDING] Generated 512-D face embedding vector (norm: 18.96)
-[2026-10-03 21:10:53] [RE-ID] Recognized visitor VISITOR_0002 (Cosine Similarity: 0.544 >= 0.4)
-[2026-10-03 21:10:53] [ENTRY EVENT] VISITOR_0002 entered frame at 1.957s (Track ID: 5)
-[2026-10-03 21:10:54] [EMBEDDING] Generated 512-D face embedding vector (norm: 24.39)
-[2026-10-03 21:10:54] [RE-ID] Recognized visitor VISITOR_0003 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:10:54] [ENTRY EVENT] VISITOR_0003 entered frame at 2.437s (Track ID: 4)
-[2026-10-03 21:10:56] [EXIT EVENT] VISITOR_0001 exited frame at 2.117s after inactivity
-[2026-10-03 21:10:59] [EXIT EVENT] VISITOR_0003 exited frame at 3.156s after inactivity
-[2026-10-03 21:11:02] [record_20250620_183903.mp4] Frame: 150(10.0%) | Speed: 6.1 FPS | Unique Visitors In Video: 3
-[2026-10-03 21:11:14] [record_20250620_183903.mp4] Frame: 300(20.0%) | Speed: 8.2 FPS | Unique Visitors In Video: 3
-[2026-10-03 21:11:22] [EMBEDDING] Generated 512-D face embedding vector (norm: 22.78)
-[2026-10-03 21:11:22] [RE-ID] Recognized visitor VISITOR_0004 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:11:22] [ENTRY EVENT] VISITOR_0004 entered frame at 15.819s (Track ID: 11)
-[2026-10-03 21:11:25] [EMBEDDING] Generated 512-D face embedding vector (norm: 25.94)
-[2026-10-03 21:11:25] [RE-ID] Recognized visitor VISITOR_0005 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:11:25] [ENTRY EVENT] VISITOR_0005 entered frame at 17.417s (Track ID: 17)
-[2026-10-03 21:11:26] [record_20250620_183903.mp4] Frame: 450(30.0%) | Speed: 9.1 FPS | Unique Visitors In Video: 5
-[2026-10-03 21:11:27] [EXIT EVENT] VISITOR_0002 exited frame at 17.017s after inactivity
-[2026-10-03 21:11:28] [EMBEDDING] Generated 512-D face embedding vector (norm: 22.35)
-[2026-10-03 21:11:28] [RE-ID] Recognized visitor VISITOR_0006 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:11:28] [ENTRY EVENT] VISITOR_0006 entered frame at 18.975s (Track ID: 19)
-[2026-10-03 21:11:31] [EXIT EVENT] VISITOR_0004 exited frame at 19.095s after inactivity
-[2026-10-03 21:11:32] [EMBEDDING] Generated 512-D face embedding vector (norm: 27.90)
-[2026-10-03 21:11:32] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:11:32] [ENTRY EVENT] VISITOR_0007 entered frame at 20.573s (Track ID: 20)
-[2026-10-03 21:11:35] [EMBEDDING] Generated 512-D face embedding vector (norm: 28.32)
-[2026-10-03 21:11:35] [RE-ID] Recognized visitor VISITOR_0008 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:11:35] [ENTRY EVENT] VISITOR_0008 entered frame at 22.61s (Track ID: 21)
-[2026-10-03 21:11:38] [record_20250620_183903.mp4] Frame: 600(39.9%) | Speed: 9.9 FPS | Unique Visitors In Video: 8
-[2026-10-03 21:11:38] [EXIT EVENT] VISITOR_0008 exited frame at 22.81s after inactivity
-[2026-10-03 21:11:39] [EMBEDDING] Generated 512-D face embedding vector (norm: 27.28)
-[2026-10-03 21:11:39] [RE-ID] Recognized visitor VISITOR_0008 (Cosine Similarity: 0.516 >= 0.4)
-[2026-10-03 21:11:40] [ENTRY EVENT] VISITOR_0008 entered frame at 24.767s (Track ID: 23)
-[2026-10-03 21:11:44] [EMBEDDING] Generated 512-D face embedding vector (norm: 21.10)
-[2026-10-03 21:11:44] [RE-ID] Recognized visitor VISITOR_0009 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:11:44] [ENTRY EVENT] VISITOR_0009 entered frame at 27.084s (Track ID: 28)
-[2026-10-03 21:11:46] [EXIT EVENT] VISITOR_0005 exited frame at 26.804s after inactivity
-[2026-10-03 21:11:47] [EXIT EVENT] VISITOR_0006 exited frame at 27.124s after inactivity
-[2026-10-03 21:11:49] [EMBEDDING] Generated 512-D face embedding vector (norm: 21.31)
-[2026-10-03 21:11:49] [RE-ID] Recognized visitor VISITOR_0003 (Cosine Similarity: 0.492 >= 0.4)
-[2026-10-03 21:11:49] [ENTRY EVENT] VISITOR_0003 entered frame at 29.521s (Track ID: 25)
-[2026-10-03 21:11:50] [record_20250620_183903.mp4] Frame: 750(49.9%) | Speed: 10.3 FPS | Unique Visitors In Video: 9
-[2026-10-03 21:11:58] [EXIT EVENT] VISITOR_0003 exited frame at 34.154s after inactivity
-[2026-10-03 21:11:59] [EXIT EVENT] VISITOR_0008 exited frame at 34.354s after inactivity
-[2026-10-03 21:11:59] [EXIT EVENT] VISITOR_0009 exited frame at 34.394s after inactivity
-[2026-10-03 21:11:59] [record_20250620_183903.mp4] Frame: 900(59.9%) | Speed: 10.9 FPS | Unique Visitors In Video: 9
-[2026-10-03 21:12:08] [record_20250620_183903.mp4] Frame: 1050(69.9%) | Speed: 11.5 FPS | Unique Visitors In Video: 9
-[2026-10-03 21:12:17] [record_20250620_183903.mp4] Frame: 1200(79.9%) | Speed: 12.0 FPS | Unique Visitors In Video: 9
-[2026-10-03 21:12:27] [record_20250620_183903.mp4] Frame: 1350(89.9%) | Speed: 12.2 FPS | Unique Visitors In Video: 9
-[2026-10-03 21:12:33] [EMBEDDING] Generated 512-D face embedding vector (norm: 20.29)
-[2026-10-03 21:12:33] [RE-ID] Recognized visitor VISITOR_0010 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:12:33] [ENTRY EVENT] VISITOR_0010 entered frame at 57.683s (Track ID: 48)
-[2026-10-03 21:12:36] [record_20250620_183903.mp4] Frame: 1500(99.9%) | Speed: 12.6 FPS | Unique Visitors In Video: 10
-[2026-10-03 21:12:37] [EXIT EVENT (STREAM END)] VISITOR_0007 logged exit at stream conclusion
-[2026-10-03 21:12:37] [EXIT EVENT (STREAM END)] VISITOR_0010 logged exit at stream conclusion
-[2026-10-03 21:12:37] Completed record_20250620_183903.mp4: 1502 frames in 119.55s (Avg 12.6 FPS)
-[2026-10-03 21:12:37] Summary for record_20250620_183903.mp4: Entries=13, Exits=13, Detections=2958, Unique Visitors In Video=10
-[2026-10-03 21:12:37] --- Processing Video (2/3): record_20250620_184049.mp4 ---
-[2026-10-03 21:12:37] Starting processing for 'record_20250620_184049.mp4' (2688x1520 @ 25.0 FPS)
-[2026-10-03 21:12:38] [EMBEDDING] Generated 512-D face embedding vector (norm: 31.09)
-[2026-10-03 21:12:38] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.688 >= 0.4)
-[2026-10-03 21:12:38] [ENTRY EVENT] VISITOR_0007 entered frame at 0.24s (Track ID: 1)
-[2026-10-03 21:12:47] [record_20250620_184049.mp4] Frame: 150(10.0%) | Speed: 14.4 FPS | Unique Visitors In Video: 1
-[2026-10-03 21:12:51] [EXIT EVENT] VISITOR_0007 exited frame at 7.15s after inactivity
-[2026-10-03 21:12:54] [EMBEDDING] Generated 512-D face embedding vector (norm: 29.21)
-[2026-10-03 21:12:54] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.632 >= 0.4)
-[2026-10-03 21:12:54] [ENTRY EVENT] VISITOR_0007 entered frame at 10.426s (Track ID: 6)
-[2026-10-03 21:12:57] [record_20250620_184049.mp4] Frame: 300(20.0%) | Speed: 14.9 FPS | Unique Visitors In Video: 1
-[2026-10-03 21:13:03] [EXIT EVENT] VISITOR_0007 exited frame at 14.501s after inactivity
-[2026-10-03 21:13:06] [record_20250620_184049.mp4] Frame: 450(30.0%) | Speed: 15.2 FPS | Unique Visitors In Video: 1
-[2026-10-03 21:13:14] [EMBEDDING] Generated 512-D face embedding vector (norm: 25.60)
-[2026-10-03 21:13:14] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.512 >= 0.4)
-[2026-10-03 21:13:14] [ENTRY EVENT] VISITOR_0007 entered frame at 22.13s (Track ID: 11)
-[2026-10-03 21:13:14] [EMBEDDING] Generated 512-D face embedding vector (norm: 23.07)
-[2026-10-03 21:13:14] [RE-ID] Recognized visitor VISITOR_0011 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:13:15] [ENTRY EVENT] VISITOR_0011 entered frame at 22.53s (Track ID: 14)
-[2026-10-03 21:13:17] [record_20250620_184049.mp4] Frame: 600(39.9%) | Speed: 15.0 FPS | Unique Visitors In Video: 2
-[2026-10-03 21:13:24] [EXIT EVENT] VISITOR_0011 exited frame at 26.804s after inactivity
-[2026-10-03 21:13:24] [EMBEDDING] Generated 512-D face embedding vector (norm: 18.16)
-[2026-10-03 21:13:24] [RE-ID] Recognized visitor VISITOR_0012 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:13:24] [ENTRY EVENT] VISITOR_0012 entered frame at 28.322s (Track ID: 17)
-[2026-10-03 21:13:27] [EMBEDDING] Generated 512-D face embedding vector (norm: 21.54)
-[2026-10-03 21:13:27] [RE-ID] Recognized visitor VISITOR_0003 (Cosine Similarity: 0.455 >= 0.4)
-[2026-10-03 21:13:27] [ENTRY EVENT] VISITOR_0003 entered frame at 29.68s (Track ID: 18)
-[2026-10-03 21:13:27] [EXIT EVENT] VISITOR_0012 exited frame at 28.602s after inactivity
-[2026-10-03 21:13:28] [record_20250620_184049.mp4] Frame: 750(49.9%) | Speed: 14.8 FPS | Unique Visitors In Video: 4
-[2026-10-03 21:13:32] [EXIT EVENT] VISITOR_0003 exited frame at 31.238s after inactivity
-[2026-10-03 21:13:43] [record_20250620_184049.mp4] Frame: 900(59.9%) | Speed: 13.6 FPS | Unique Visitors In Video: 4
-[2026-10-03 21:13:54] [record_20250620_184049.mp4] Frame: 1050(69.9%) | Speed: 13.6 FPS | Unique Visitors In Video: 4
-[2026-10-03 21:14:00] [EXIT EVENT] VISITOR_0007 exited frame at 43.622s after inactivity
-[2026-10-03 21:14:02] [EMBEDDING] Generated 512-D face embedding vector (norm: 29.17)
-[2026-10-03 21:14:02] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.458 >= 0.4)
-[2026-10-03 21:14:03] [ENTRY EVENT] VISITOR_0007 entered frame at 46.138s (Track ID: 39)
-[2026-10-03 21:14:03] [EMBEDDING] Generated 512-D face embedding vector (norm: 22.54)
-[2026-10-03 21:14:03] [RE-ID] Recognized visitor VISITOR_0013 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:14:03] [ENTRY EVENT] VISITOR_0013 entered frame at 46.538s (Track ID: 42)
-[2026-10-03 21:14:06] [record_20250620_184049.mp4] Frame: 1200(79.9%) | Speed: 13.5 FPS | Unique Visitors In Video: 5
-[2026-10-03 21:14:07] [EMBEDDING] Generated 512-D face embedding vector (norm: 19.98)
-[2026-10-03 21:14:07] [RE-ID] Recognized visitor VISITOR_0014 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:14:07] [ENTRY EVENT] VISITOR_0014 entered frame at 48.415s (Track ID: 50)
-[2026-10-03 21:14:08] [EXIT EVENT] VISITOR_0013 exited frame at 47.976s after inactivity
-[2026-10-03 21:14:17] [record_20250620_184049.mp4] Frame: 1350(89.9%) | Speed: 13.5 FPS | Unique Visitors In Video: 6
-[2026-10-03 21:14:18] [EXIT EVENT] VISITOR_0014 exited frame at 53.209s after inactivity
-[2026-10-03 21:14:29] [EMBEDDING] Generated 512-D face embedding vector (norm: 23.81)
-[2026-10-03 21:14:29] [RE-ID] Recognized visitor VISITOR_0003 (Cosine Similarity: 0.506 >= 0.4)
-[2026-10-03 21:14:29] [ENTRY EVENT] VISITOR_0003 entered frame at 59.76s (Track ID: 53)
-[2026-10-03 21:14:29] [record_20250620_184049.mp4] Frame: 1500(99.9%) | Speed: 13.4 FPS | Unique Visitors In Video: 6
-[2026-10-03 21:14:29] [EXIT EVENT (STREAM END)] VISITOR_0007 logged exit at stream conclusion
-[2026-10-03 21:14:29] [EXIT EVENT (STREAM END)] VISITOR_0003 logged exit at stream conclusion
-[2026-10-03 21:14:29] Completed record_20250620_184049.mp4: 1502 frames in 112.62s (Avg 13.3 FPS)
-[2026-10-03 21:14:29] Summary for record_20250620_184049.mp4: Entries=10, Exits=10, Detections=1998, Unique Visitors In Video=6
-[2026-10-03 21:14:29] --- Processing Video (3/3): record_20250620_184302.mp4 ---
-[2026-10-03 21:14:30] Starting processing for 'record_20250620_184302.mp4' (2688x1520 @ 25.0 FPS)
-[2026-10-03 21:14:31] [EMBEDDING] Generated 512-D face embedding vector (norm: 26.26)
-[2026-10-03 21:14:31] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.584 >= 0.4)
-[2026-10-03 21:14:31] [ENTRY EVENT] VISITOR_0007 entered frame at 0.439s (Track ID: 1)
-[2026-10-03 21:14:40] [record_20250620_184302.mp4] Frame: 150(10.0%) | Speed: 14.4 FPS | Unique Visitors In Video: 1
-[2026-10-03 21:14:50] [record_20250620_184302.mp4] Frame: 300(20.0%) | Speed: 14.6 FPS | Unique Visitors In Video: 1
-[2026-10-03 21:14:53] [EXIT EVENT] VISITOR_0007 exited frame at 12.543s after inactivity
-[2026-10-03 21:15:00] [EMBEDDING] Generated 512-D face embedding vector (norm: 28.58)
-[2026-10-03 21:15:00] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.683 >= 0.4)
-[2026-10-03 21:15:00] [ENTRY EVENT] VISITOR_0007 entered frame at 17.017s (Track ID: 9)
-[2026-10-03 21:15:01] [record_20250620_184302.mp4] Frame: 450(30.0%) | Speed: 14.2 FPS | Unique Visitors In Video: 1
-[2026-10-03 21:15:14] [record_20250620_184302.mp4] Frame: 600(39.9%) | Speed: 13.6 FPS | Unique Visitors In Video: 1
-[2026-10-03 21:15:26] [record_20250620_184302.mp4] Frame: 750(49.9%) | Speed: 13.4 FPS | Unique Visitors In Video: 1
-[2026-10-03 21:15:35] [EMBEDDING] Generated 512-D face embedding vector (norm: 26.29)
-[2026-10-03 21:15:35] [RE-ID] Recognized visitor VISITOR_0015 (Cosine Similarity: 1.000 >= 0.4)
-[2026-10-03 21:15:36] [ENTRY EVENT] VISITOR_0015 entered frame at 35.593s (Track ID: 16)
-[2026-10-03 21:15:36] [record_20250620_184302.mp4] Frame: 900(59.9%) | Speed: 13.5 FPS | Unique Visitors In Video: 2
-[2026-10-03 21:15:47] [record_20250620_184302.mp4] Frame: 1050(69.9%) | Speed: 13.5 FPS | Unique Visitors In Video: 2
-[2026-10-03 21:15:50] [EXIT EVENT] VISITOR_0015 exited frame at 42.224s after inactivity
-[2026-10-03 21:15:58] [EXIT EVENT] VISITOR_0007 exited frame at 46.538s after inactivity
-[2026-10-03 21:15:58] [record_20250620_184302.mp4] Frame: 1200(79.9%) | Speed: 13.6 FPS | Unique Visitors In Video: 2
-[2026-10-03 21:16:03] [EMBEDDING] Generated 512-D face embedding vector (norm: 25.80)
-[2026-10-03 21:16:03] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.554 >= 0.4)
-[2026-10-03 21:16:04] [ENTRY EVENT] VISITOR_0007 entered frame at 50.972s (Track ID: 19)
-[2026-10-03 21:16:09] [record_20250620_184302.mp4] Frame: 1350(89.9%) | Speed: 13.6 FPS | Unique Visitors In Video: 2
-[2026-10-03 21:16:12] [EXIT EVENT] VISITOR_0007 exited frame at 54.487s after inactivity
-[2026-10-03 21:16:15] [EMBEDDING] Generated 512-D face embedding vector (norm: 22.50)
-[2026-10-03 21:16:15] [RE-ID] Recognized visitor VISITOR_0002 (Cosine Similarity: 0.488 >= 0.4)
-[2026-10-03 21:16:15] [ENTRY EVENT] VISITOR_0002 entered frame at 57.364s (Track ID: 28)
-[2026-10-03 21:16:19] [record_20250620_184302.mp4] Frame: 1500(99.9%) | Speed: 13.7 FPS | Unique Visitors In Video: 3
-[2026-10-03 21:16:20] [EXIT EVENT (STREAM END)] VISITOR_0002 logged exit at stream conclusion
-[2026-10-03 21:16:20] Completed record_20250620_184302.mp4: 1502 frames in 110.12s (Avg 13.6 FPS)
-[2026-10-03 21:16:20] Summary for record_20250620_184302.mp4: Entries=5, Exits=5, Detections=1600, Unique Visitors In Video=3
-[2026-10-03 21:16:20] ============================================================
-[2026-10-03 21:16:20] PIPELINE RUN FINISHED. UNIQUE VISITORS SEEN IN THIS RUN: 15
-[2026-10-03 21:16:20] TOTAL REGISTERED VISITORS IN DATABASE: 15
-[2026-10-03 21:16:20] Database Record Count: 15
-[2026-10-03 21:16:20] ============================================================
+[2026-10-04 00:41:56] === SYSTEM INITIALIZED: INTELLIGENT FACE TRACKER ===
+[2026-10-04 00:41:56] Compute Device: cuda | Confidence: 0.5 | Inference Size: 1280 | Frame Skip: 1
+[2026-10-04 00:42:06] Loaded 15 pre-registered visitors from database.
+[2026-10-04 00:42:07] Found 3 video file(s) in 'C:\Intelligent Face Tracker\video'
+[2026-10-04 00:42:07] --- Processing Video (1/3): record_20250620_183903.mp4 ---
+[2026-10-04 00:42:07] Starting processing for 'record_20250620_183903.mp4' (2688x1520 @ 25.0 FPS)
+[2026-10-04 00:42:29] [EMBEDDING] Generated 512-D face embedding vector (norm: 25.64)
+[2026-10-04 00:42:29] [RE-ID] Recognized visitor VISITOR_0001 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:42:29] [ENTRY EVENT] VISITOR_0001 entered frame at 0.04s (Track ID: 1)
+[2026-10-04 00:42:31] [EMBEDDING] Generated 512-D face embedding vector (norm: 22.43)
+[2026-10-04 00:42:31] [RE-ID] Recognized visitor VISITOR_0002 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:42:32] [ENTRY EVENT] VISITOR_0002 entered frame at 0.439s (Track ID: 2)
+[2026-10-04 00:42:35] [EXIT EVENT] VISITOR_0002 exited frame at 0.439s after inactivity
+[2026-10-04 00:42:36] [EMBEDDING] Generated 512-D face embedding vector (norm: 18.96)
+[2026-10-04 00:42:36] [RE-ID] Recognized visitor VISITOR_0002 (Cosine Similarity: 0.544 >= 0.4)
+[2026-10-04 00:42:36] [ENTRY EVENT] VISITOR_0002 entered frame at 1.957s (Track ID: 5)
+[2026-10-04 00:42:38] [EMBEDDING] Generated 512-D face embedding vector (norm: 24.39)
+[2026-10-04 00:42:38] [RE-ID] Recognized visitor VISITOR_0003 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:42:38] [ENTRY EVENT] VISITOR_0003 entered frame at 2.437s (Track ID: 4)
+[2026-10-04 00:42:40] [EXIT EVENT] VISITOR_0001 exited frame at 2.117s after inactivity
+[2026-10-04 00:42:43] [EXIT EVENT] VISITOR_0003 exited frame at 3.156s after inactivity
+[2026-10-04 00:42:48] [record_20250620_183903.mp4] Frame: 150(10.0%) | Speed: 3.7 FPS | Unique Visitors In Video: 3
+[2026-10-04 00:43:03] [record_20250620_183903.mp4] Frame: 300(20.0%) | Speed: 5.4 FPS | Unique Visitors In Video: 3
+[2026-10-04 00:43:15] [EMBEDDING] Generated 512-D face embedding vector (norm: 22.78)
+[2026-10-04 00:43:15] [RE-ID] Recognized visitor VISITOR_0004 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:43:15] [ENTRY EVENT] VISITOR_0004 entered frame at 15.819s (Track ID: 11)
+[2026-10-04 00:43:20] [EMBEDDING] Generated 512-D face embedding vector (norm: 25.94)
+[2026-10-04 00:43:20] [RE-ID] Recognized visitor VISITOR_0005 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:43:20] [ENTRY EVENT] VISITOR_0005 entered frame at 17.417s (Track ID: 17)
+[2026-10-04 00:43:22] [record_20250620_183903.mp4] Frame: 450(30.0%) | Speed: 6.0 FPS | Unique Visitors In Video: 5
+[2026-10-04 00:43:23] [EXIT EVENT] VISITOR_0002 exited frame at 17.017s after inactivity
+[2026-10-04 00:43:25] [EMBEDDING] Generated 512-D face embedding vector (norm: 22.35)
+[2026-10-04 00:43:25] [RE-ID] Recognized visitor VISITOR_0006 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:43:25] [ENTRY EVENT] VISITOR_0006 entered frame at 18.975s (Track ID: 19)
+[2026-10-04 00:43:30] [EXIT EVENT] VISITOR_0004 exited frame at 19.095s after inactivity
+[2026-10-04 00:43:31] [EMBEDDING] Generated 512-D face embedding vector (norm: 27.90)
+[2026-10-04 00:43:31] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:43:31] [ENTRY EVENT] VISITOR_0007 entered frame at 20.573s (Track ID: 20)
+[2026-10-04 00:43:36] [EMBEDDING] Generated 512-D face embedding vector (norm: 28.32)
+[2026-10-04 00:43:36] [RE-ID] Recognized visitor VISITOR_0008 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:43:36] [ENTRY EVENT] VISITOR_0008 entered frame at 22.61s (Track ID: 21)
+[2026-10-04 00:43:40] [record_20250620_183903.mp4] Frame: 600(39.9%) | Speed: 6.4 FPS | Unique Visitors In Video: 8
+[2026-10-04 00:43:41] [EXIT EVENT] VISITOR_0008 exited frame at 22.81s after inactivity
+[2026-10-04 00:43:43] [EMBEDDING] Generated 512-D face embedding vector (norm: 27.28)
+[2026-10-04 00:43:43] [RE-ID] Recognized visitor VISITOR_0008 (Cosine Similarity: 0.516 >= 0.4)
+[2026-10-04 00:43:43] [ENTRY EVENT] VISITOR_0008 entered frame at 24.767s (Track ID: 23)
+[2026-10-04 00:43:51] [EMBEDDING] Generated 512-D face embedding vector (norm: 21.10)
+[2026-10-04 00:43:51] [RE-ID] Recognized visitor VISITOR_0009 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:43:51] [ENTRY EVENT] VISITOR_0009 entered frame at 27.084s (Track ID: 28)
+[2026-10-04 00:43:54] [EXIT EVENT] VISITOR_0005 exited frame at 26.804s after inactivity
+[2026-10-04 00:43:55] [EXIT EVENT] VISITOR_0006 exited frame at 27.124s after inactivity
+[2026-10-04 00:43:59] [EMBEDDING] Generated 512-D face embedding vector (norm: 21.31)
+[2026-10-04 00:43:59] [RE-ID] Recognized visitor VISITOR_0003 (Cosine Similarity: 0.492 >= 0.4)
+[2026-10-04 00:43:59] [ENTRY EVENT] VISITOR_0003 entered frame at 29.521s (Track ID: 25)
+[2026-10-04 00:44:00] [record_20250620_183903.mp4] Frame: 750(49.9%) | Speed: 6.6 FPS | Unique Visitors In Video: 9
+[2026-10-04 00:44:16] [EXIT EVENT] VISITOR_0003 exited frame at 34.154s after inactivity
+[2026-10-04 00:44:17] [EXIT EVENT] VISITOR_0008 exited frame at 34.354s after inactivity
+[2026-10-04 00:44:17] [EXIT EVENT] VISITOR_0009 exited frame at 34.394s after inactivity
+[2026-10-04 00:44:18] [record_20250620_183903.mp4] Frame: 900(59.9%) | Speed: 6.9 FPS | Unique Visitors In Video: 9
+[2026-10-04 00:44:35] [record_20250620_183903.mp4] Frame: 1050(69.9%) | Speed: 7.1 FPS | Unique Visitors In Video: 9
+[2026-10-04 00:44:54] [record_20250620_183903.mp4] Frame: 1200(79.9%) | Speed: 7.2 FPS | Unique Visitors In Video: 9
+[2026-10-04 00:45:17] [record_20250620_183903.mp4] Frame: 1350(89.9%) | Speed: 7.1 FPS | Unique Visitors In Video: 9
+[2026-10-04 00:45:30] [EMBEDDING] Generated 512-D face embedding vector (norm: 20.29)
+[2026-10-04 00:45:30] [RE-ID] Recognized visitor VISITOR_0010 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:45:31] [ENTRY EVENT] VISITOR_0010 entered frame at 57.683s (Track ID: 48)
+[2026-10-04 00:45:37] [record_20250620_183903.mp4] Frame: 1500(99.9%) | Speed: 7.1 FPS | Unique Visitors In Video: 10
+[2026-10-04 00:45:38] [EXIT EVENT (STREAM END)] VISITOR_0007 logged exit at stream conclusion
+[2026-10-04 00:45:38] [EXIT EVENT (STREAM END)] VISITOR_0010 logged exit at stream conclusion
+[2026-10-04 00:45:38] Completed record_20250620_183903.mp4: 1502 frames in 211.49s (Avg 7.1 FPS)
+[2026-10-04 00:45:38] Summary for record_20250620_183903.mp4: Entries=13, Exits=13, Detections=2958, Unique Visitors In Video=10
+[2026-10-04 00:45:38] --- Processing Video (2/3): record_20250620_184049.mp4 ---
+[2026-10-04 00:45:38] Starting processing for 'record_20250620_184049.mp4' (2688x1520 @ 25.0 FPS)
+[2026-10-04 00:45:41] [EMBEDDING] Generated 512-D face embedding vector (norm: 31.09)
+[2026-10-04 00:45:41] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.688 >= 0.4)
+[2026-10-04 00:45:41] [ENTRY EVENT] VISITOR_0007 entered frame at 0.24s (Track ID: 1)
+[2026-10-04 00:46:01] [record_20250620_184049.mp4] Frame: 150(10.0%) | Speed: 6.7 FPS | Unique Visitors In Video: 1
+[2026-10-04 00:46:08] [EXIT EVENT] VISITOR_0007 exited frame at 7.15s after inactivity
+[2026-10-04 00:46:15] [EMBEDDING] Generated 512-D face embedding vector (norm: 29.21)
+[2026-10-04 00:46:15] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.632 >= 0.4)
+[2026-10-04 00:46:15] [ENTRY EVENT] VISITOR_0007 entered frame at 10.426s (Track ID: 6)
+[2026-10-04 00:46:20] [record_20250620_184049.mp4] Frame: 300(20.0%) | Speed: 7.3 FPS | Unique Visitors In Video: 1
+[2026-10-04 00:46:33] [EXIT EVENT] VISITOR_0007 exited frame at 14.501s after inactivity
+[2026-10-04 00:46:40] [record_20250620_184049.mp4] Frame: 450(30.0%) | Speed: 7.3 FPS | Unique Visitors In Video: 1
+[2026-10-04 00:46:53] [EMBEDDING] Generated 512-D face embedding vector (norm: 25.60)
+[2026-10-04 00:46:53] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.512 >= 0.4)
+[2026-10-04 00:46:53] [ENTRY EVENT] VISITOR_0007 entered frame at 22.13s (Track ID: 11)
+[2026-10-04 00:46:54] [EMBEDDING] Generated 512-D face embedding vector (norm: 23.07)
+[2026-10-04 00:46:54] [RE-ID] Recognized visitor VISITOR_0011 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:46:54] [ENTRY EVENT] VISITOR_0011 entered frame at 22.53s (Track ID: 14)
+[2026-10-04 00:46:59] [record_20250620_184049.mp4] Frame: 600(39.9%) | Speed: 7.5 FPS | Unique Visitors In Video: 2
+[2026-10-04 00:47:11] [EXIT EVENT] VISITOR_0011 exited frame at 26.804s after inactivity
+[2026-10-04 00:47:12] [EMBEDDING] Generated 512-D face embedding vector (norm: 18.16)
+[2026-10-04 00:47:12] [RE-ID] Recognized visitor VISITOR_0012 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:47:12] [ENTRY EVENT] VISITOR_0012 entered frame at 28.322s (Track ID: 17)
+[2026-10-04 00:47:17] [EMBEDDING] Generated 512-D face embedding vector (norm: 21.54)
+[2026-10-04 00:47:17] [RE-ID] Recognized visitor VISITOR_0003 (Cosine Similarity: 0.455 >= 0.4)
+[2026-10-04 00:47:17] [ENTRY EVENT] VISITOR_0003 entered frame at 29.68s (Track ID: 18)
+[2026-10-04 00:47:18] [EXIT EVENT] VISITOR_0012 exited frame at 28.602s after inactivity
+[2026-10-04 00:47:18] [record_20250620_184049.mp4] Frame: 750(49.9%) | Speed: 7.5 FPS | Unique Visitors In Video: 4
+[2026-10-04 00:47:28] [EXIT EVENT] VISITOR_0003 exited frame at 31.238s after inactivity
+[2026-10-04 00:47:39] [record_20250620_184049.mp4] Frame: 900(59.9%) | Speed: 7.4 FPS | Unique Visitors In Video: 4
+[2026-10-04 00:47:57] [record_20250620_184049.mp4] Frame: 1050(69.9%) | Speed: 7.6 FPS | Unique Visitors In Video: 4
+[2026-10-04 00:48:06] [EXIT EVENT] VISITOR_0007 exited frame at 43.622s after inactivity
+[2026-10-04 00:48:11] [EMBEDDING] Generated 512-D face embedding vector (norm: 29.17)
+[2026-10-04 00:48:11] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.458 >= 0.4)
+[2026-10-04 00:48:11] [ENTRY EVENT] VISITOR_0007 entered frame at 46.138s (Track ID: 39)
+[2026-10-04 00:48:12] [EMBEDDING] Generated 512-D face embedding vector (norm: 22.54)
+[2026-10-04 00:48:12] [RE-ID] Recognized visitor VISITOR_0013 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:48:12] [ENTRY EVENT] VISITOR_0013 entered frame at 46.538s (Track ID: 42)
+[2026-10-04 00:48:17] [record_20250620_184049.mp4] Frame: 1200(79.9%) | Speed: 7.6 FPS | Unique Visitors In Video: 5
+[2026-10-04 00:48:18] [EMBEDDING] Generated 512-D face embedding vector (norm: 19.98)
+[2026-10-04 00:48:18] [RE-ID] Recognized visitor VISITOR_0014 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:48:19] [ENTRY EVENT] VISITOR_0014 entered frame at 48.415s (Track ID: 50)
+[2026-10-04 00:48:21] [EXIT EVENT] VISITOR_0013 exited frame at 47.976s after inactivity
+[2026-10-04 00:48:36] [record_20250620_184049.mp4] Frame: 1350(89.9%) | Speed: 7.6 FPS | Unique Visitors In Video: 6
+[2026-10-04 00:48:38] [EXIT EVENT] VISITOR_0014 exited frame at 53.209s after inactivity
+[2026-10-04 00:48:53] [EMBEDDING] Generated 512-D face embedding vector (norm: 23.81)
+[2026-10-04 00:48:53] [RE-ID] Recognized visitor VISITOR_0003 (Cosine Similarity: 0.506 >= 0.4)
+[2026-10-04 00:48:54] [ENTRY EVENT] VISITOR_0003 entered frame at 59.76s (Track ID: 53)
+[2026-10-04 00:48:54] [record_20250620_184049.mp4] Frame: 1500(99.9%) | Speed: 7.7 FPS | Unique Visitors In Video: 6
+[2026-10-04 00:48:55] [EXIT EVENT (STREAM END)] VISITOR_0007 logged exit at stream conclusion
+[2026-10-04 00:48:55] [EXIT EVENT (STREAM END)] VISITOR_0003 logged exit at stream conclusion
+[2026-10-04 00:48:55] Completed record_20250620_184049.mp4: 1502 frames in 196.49s (Avg 7.6 FPS)
+[2026-10-04 00:48:55] Summary for record_20250620_184049.mp4: Entries=10, Exits=10, Detections=1998, Unique Visitors In Video=6
+[2026-10-04 00:48:55] --- Processing Video (3/3): record_20250620_184302.mp4 ---
+[2026-10-04 00:48:55] Starting processing for 'record_20250620_184302.mp4' (2688x1520 @ 25.0 FPS)
+[2026-10-04 00:48:57] [EMBEDDING] Generated 512-D face embedding vector (norm: 26.26)
+[2026-10-04 00:48:57] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.584 >= 0.4)
+[2026-10-04 00:48:57] [ENTRY EVENT] VISITOR_0007 entered frame at 0.439s (Track ID: 1)
+[2026-10-04 00:49:12] [record_20250620_184302.mp4] Frame: 150(10.0%) | Speed: 8.6 FPS | Unique Visitors In Video: 1
+[2026-10-04 00:49:31] [record_20250620_184302.mp4] Frame: 300(20.0%) | Speed: 8.3 FPS | Unique Visitors In Video: 1
+[2026-10-04 00:49:36] [EXIT EVENT] VISITOR_0007 exited frame at 12.543s after inactivity
+[2026-10-04 00:49:46] [EMBEDDING] Generated 512-D face embedding vector (norm: 28.58)
+[2026-10-04 00:49:46] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.683 >= 0.4)
+[2026-10-04 00:49:46] [ENTRY EVENT] VISITOR_0007 entered frame at 17.017s (Track ID: 9)
+[2026-10-04 00:49:48] [record_20250620_184302.mp4] Frame: 450(30.0%) | Speed: 8.5 FPS | Unique Visitors In Video: 1
+[2026-10-04 00:50:06] [record_20250620_184302.mp4] Frame: 600(39.9%) | Speed: 8.5 FPS | Unique Visitors In Video: 1
+[2026-10-04 00:50:23] [record_20250620_184302.mp4] Frame: 750(49.9%) | Speed: 8.5 FPS | Unique Visitors In Video: 1
+[2026-10-04 00:50:38] [EMBEDDING] Generated 512-D face embedding vector (norm: 26.29)
+[2026-10-04 00:50:38] [RE-ID] Recognized visitor VISITOR_0015 (Cosine Similarity: 1.000 >= 0.4)
+[2026-10-04 00:50:38] [ENTRY EVENT] VISITOR_0015 entered frame at 35.593s (Track ID: 16)
+[2026-10-04 00:50:39] [record_20250620_184302.mp4] Frame: 900(59.9%) | Speed: 8.6 FPS | Unique Visitors In Video: 2
+[2026-10-04 00:50:56] [record_20250620_184302.mp4] Frame: 1050(69.9%) | Speed: 8.7 FPS | Unique Visitors In Video: 2
+[2026-10-04 00:51:01] [EXIT EVENT] VISITOR_0015 exited frame at 42.224s after inactivity
+[2026-10-04 00:51:12] [EXIT EVENT] VISITOR_0007 exited frame at 46.538s after inactivity
+[2026-10-04 00:51:12] [record_20250620_184302.mp4] Frame: 1200(79.9%) | Speed: 8.7 FPS | Unique Visitors In Video: 2
+[2026-10-04 00:51:21] [EMBEDDING] Generated 512-D face embedding vector (norm: 25.80)
+[2026-10-04 00:51:21] [RE-ID] Recognized visitor VISITOR_0007 (Cosine Similarity: 0.554 >= 0.4)
+[2026-10-04 00:51:22] [ENTRY EVENT] VISITOR_0007 entered frame at 50.972s (Track ID: 19)
+[2026-10-04 00:51:31] [record_20250620_184302.mp4] Frame: 1350(89.9%) | Speed: 8.7 FPS | Unique Visitors In Video: 2
+[2026-10-04 00:51:36] [EXIT EVENT] VISITOR_0007 exited frame at 54.487s after inactivity
+[2026-10-04 00:51:41] [EMBEDDING] Generated 512-D face embedding vector (norm: 22.50)
+[2026-10-04 00:51:41] [RE-ID] Recognized visitor VISITOR_0002 (Cosine Similarity: 0.488 >= 0.4)
+[2026-10-04 00:51:41] [ENTRY EVENT] VISITOR_0002 entered frame at 57.364s (Track ID: 28)
+[2026-10-04 00:51:48] [record_20250620_184302.mp4] Frame: 1500(99.9%) | Speed: 8.7 FPS | Unique Visitors In Video: 3
+[2026-10-04 00:51:49] [EXIT EVENT (STREAM END)] VISITOR_0002 logged exit at stream conclusion
+[2026-10-04 00:51:49] Completed record_20250620_184302.mp4: 1502 frames in 173.97s (Avg 8.6 FPS)
+[2026-10-04 00:51:49] Summary for record_20250620_184302.mp4: Entries=5, Exits=5, Detections=1600, Unique Visitors In Video=3
+[2026-10-04 00:51:49] ============================================================
+[2026-10-04 00:51:49] PIPELINE RUN FINISHED. UNIQUE VISITORS SEEN IN THIS RUN: 15
+[2026-10-04 00:51:49] TOTAL REGISTERED VISITORS IN DATABASE: 15
+[2026-10-04 00:51:49] Database Record Count: 15
+[2026-10-04 00:51:49] ============================================================

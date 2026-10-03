@@ -96,9 +96,7 @@ Intelligent-Face-Tracker/
 │   └── tracking/                   # Annotated video outputs
 ├── src/
 │   ├── database/db_manager.py      # Dual SQLite & MongoDB database manager
-│   ├── detection/face_detector.py  # Face detection module
-│   ├── recognition/face_recognizer.py # InsightFace embedding extraction
-│   └── tracking/face_tracker.py    # ByteTrack tracking module
+│   └── recognition/face_recognizer.py # InsightFace embedding extraction
 └── video/                          # Input surveillance video files
 ```
 

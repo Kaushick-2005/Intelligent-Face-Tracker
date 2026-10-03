@@ -67,26 +67,22 @@ flowchart TD
 
 ## 3. Modular Pipeline Design
 
-1. **`src/detection/face_detector.py`**:
-   - High-throughput batch inference pipeline for face localization.
-   - Evaluates frame-skip strategies and detection confidence thresholds.
+1. **`main.py` detection and tracking orchestration**:
+   - Loads YOLOv8-Face and applies the configured confidence, image size, and frame-skip settings.
+   - Calls YOLO's ByteTrack integration through `yolo_model.track(...)` and maintains active visitor tracks.
 
-2. **`src/tracking/face_tracker.py`**:
-   - Integrates ByteTrack with YOLO bounding box representations.
-   - Maintains continuous motion trajectories and trajectory CSV reports.
-
-3. **`src/recognition/face_recognizer.py`**:
+2. **`src/recognition/face_recognizer.py`**:
    - Implements InsightFace `buffalo_l` (ResNet50 / ArcFace backbone).
    - Generates normalized 512-dimensional facial feature vectors.
    - Computes Cosine Similarity metric:
      $$\text{Cosine Similarity} = \frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\|_2 \|\mathbf{v}\|_2}$$
 
-4. **`src/database/db_manager.py`**:
+3. **`src/database/db_manager.py`**:
    - Dual-engine transactional logging for SQLite and MongoDB Atlas.
    - Automatic table schema creation (`visitors`, `events`).
    - In-memory visitor pre-loading on startup for immediate cross-run re-identification.
 
-5. **`main.py`**:
+4. **`main.py`**:
    - Unified real-time orchestration engine.
    - Handles video folder ingestion, live RTSP streams, and webcams.
    - Coordinates dynamic auto-registration, entry/exit logging, crop archiving, and video rendering.
