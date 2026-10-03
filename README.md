@@ -273,8 +273,11 @@ Detailed hardware profiling can be found in [docs/compute_load_and_performance.m
 
 ## Video Demonstration
 
-> [!NOTE]
-> **Demonstration Video Link**: [Watch the Loom walkthrough](https://www.loom.com/share/f593fa6f79344ee4a489f765e8e4e974)
+<div align="center">
+  <iframe src="https://www.loom.com/embed/f593fa6f79344ee4a489f765e8e4e974" frameborder="0" allowfullscreen></iframe>
+</div>
+
+**Loom video link:** [Watch the Loom walkthrough](https://www.loom.com/share/f593fa6f79344ee4a489f765e8e4e974)
 
 ---
 
