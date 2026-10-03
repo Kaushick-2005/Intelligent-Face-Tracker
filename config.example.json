@@ -1,0 +1,36 @@
+{
+  "detection": {
+    "confidence": 0.5,
+    "frame_skip": 1,
+    "imgsz": 1280
+  },
+  "input": {
+    "source_type": "folder",
+    "source": "video",
+    "rtsp_url": "rtsp://username:password@camera_ip:554/stream1"
+  },
+  "models": {
+    "yolo_face": "models/yolo/yolov8n-face.pt",
+    "insightface_root": "models/insightface"
+  },
+  "tracking": {
+    "tracker": "bytetrack.yaml",
+    "exit_timeout_frames": 30
+  },
+  "recognition": {
+    "similarity_threshold": 0.40,
+    "retry_frames": 5,
+    "crop_padding_ratio": 0.25
+  },
+  "output": {
+    "directory": "output/tracking"
+  },
+  "logging": {
+    "directory": "logs"
+  },
+  "database": {
+    "sqlite_path": "database/intelligent_face_tracker.sqlite3",
+    "mongodb_uri": "mongodb+srv://USERNAME:PASSWORD@CLUSTER.mongodb.net/?appName=Cluster01",
+    "database_name": "intelligent_face_tracker"
+  }
+}
